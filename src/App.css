@@ -1,3 +1,17 @@
+body {
+  background: #ececec;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: #9fd3c7;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 50px;
+  width: 700px;
+}
+
 .App-header {
   font-size: larger;
   font-weight: bold;

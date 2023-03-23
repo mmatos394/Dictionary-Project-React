@@ -4,9 +4,9 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <div className="app-container">
+      <div className="container">
         <header className="App-header">Dictionary</header>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
         <footer className="App-footer">Coded by Melissa</footer>
       </div>
     </div>
