@@ -10,13 +10,15 @@ body {
   padding: 50px;
   margin: 50px;
   width: 700px;
+  font-family: "Livvic", sans-serif;
 }
 
 .App-header {
-  font-size: larger;
+  font-size: 50px;
   font-weight: bold;
   line-height: 50px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .App-footer {
