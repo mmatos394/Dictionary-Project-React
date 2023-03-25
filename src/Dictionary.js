@@ -23,7 +23,7 @@ export default function Dictionary(props) {
     axios.get(apiUrl).then(handleDictionaryResponse);
 
     let sheCodesApiKey = "149310df1cftbof1b8c36c6e03299a7d";
-    let sheCodesApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${sheCodesApiKey}&per_page=4`;
+    let sheCodesApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${sheCodesApiKey}`;
     axios.get(sheCodesApiUrl).then(handlePexelsResponse);
   }
 
